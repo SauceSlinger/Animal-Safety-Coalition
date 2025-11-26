@@ -1,20 +1,20 @@
 
  # Wildlife Conservation Donation Page
 
- A clean, responsive React + Vite single-page site for collecting donations and showcasing endangered species — exported from a Figma design and integrated into this repository.
+A clean, responsive React + Vite single-page site for collecting donations and showcasing endangered species — exported from a Figma design and integrated into this repository.
 
- Live demo: https://SauceSlinger.github.io/Animal-Safety-Coalition/
+Live demo: https://SauceSlinger.github.io/Animal-Safety-Coalition/
 
- Design reference: https://www.figma.com/design/oCQI46nPL2pIT2drCNoY7c/Wildlife-Conservation-Donation-Page
+Design reference: https://www.figma.com/design/oCQI46nPL2pIT2drCNoY7c/Wildlife-Conservation-Donation-Page
 
- ## Contents
+## Contents
 
 - `src/` — React components, styles, and assets.
 - `index.html` — Vite entry file.
 - `vite.config.ts` — Vite configuration (set to use relative `base` for GitHub Pages).
 - `package.json` — scripts for dev, build, and deploy (gh-pages).
 
- ## Quickstart (development)
+## Quickstart (development)
 
 1. Install dependencies
 
@@ -65,13 +65,15 @@ This publishes the `build/` folder to GitHub Pages. The repository is already co
 
 ## Screenshots
 
-If you'd like to include screenshots in the README, add images to a `docs/` folder (e.g. `docs/screenshot-hero.png`) and reference them here. Example:
+Below are three snapshots of the site (click to view full size):
 
-```md
-![Hero section](docs/screenshot-hero.png)
-```
+![Hero section](docs/Screenshot from 2025-11-26 03-07-35.png)
 
-I can add example screenshots if you want — tell me which views to capture and I will generate and commit them.
+![Donation form](docs/Screenshot from 2025-11-26 03-08-01.png)
+
+![Species grid](docs/Screenshot from 2025-11-26 03-08-44.png)
+
+These images live in `docs/`. Replace them by adding new files to that folder and updating the links.
 
 ## Troubleshooting
 
@@ -95,5 +97,4 @@ Repository owner / maintainer: SauceSlinger (https://github.com/SauceSlinger)
 
 ---
 
-If you'd like, I can add a status badge for the GitHub Actions deploy workflow and commit screenshot images to `docs/`.
-  
+If you'd like, I can add a status badge for the GitHub Actions deploy workflow.
