@@ -67,11 +67,11 @@ This publishes the `build/` folder to GitHub Pages. The repository is already co
 
 Below are three snapshots of the site (click to view full size):
 
-![Hero section](/home/ohm/Desktop/Venture/Dev/Animal Safety Coalition/screenshots/heroPage.png)
+![Hero section](docs/hero.png)
 
-![Donation form](/home/ohm/Desktop/Venture/Dev/Animal Safety Coalition/screenshots/donateCredits.png)
+![Donation form](docs/donate.png)
 
-![Species grid](/home/ohm/Desktop/Venture/Dev/Animal Safety Coalition/screenshots/endangeredSpecies.png)
+![Species grid](docs/species.png)
 
 These images live in `docs/`. Replace them by adding new files to that folder and updating the links.
 
