@@ -41,6 +41,43 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+/* Use the hand-drawn 'Patrick Hand' font as the primary UI font (falls back to system sans) */
+:root {
+  --default-font-family: 'Patrick Hand', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Subtle, dynamic text effects to feel hand-crafted but professional */
+h1, h2, h3, h4, .site-title {
+  text-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  transition: transform 220ms var(--default-transition-timing-function), text-shadow 220ms var(--default-transition-timing-function);
+}
+
+/* Slight, tasteful lift on hover for interactive headings */
+@media (hover: hover) {
+  h1:hover, h2:hover, h3:hover, h4:hover {
+    transform: translateY(-3px) rotate(-0.3deg) scale(1.01);
+    text-shadow: 0 6px 18px rgba(2,6,23,0.06);
+  }
+}
+
+/* Make buttons and CTAs feel tactile with a gentle micro-shadow and upward movement */
+.inline-flex, button, a {
+  transition: transform 200ms var(--default-transition-timing-function), box-shadow 200ms var(--default-transition-timing-function);
+}
+
+@media (hover: hover) {
+  a:hover, button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(2,6,23,0.06);
+  }
+}
+
+/* Improve readability of paragraphs with slightly increased word-spacing and softer color */
+p, label {
+  word-spacing: 0.02em;
+  color: var(--color-muted-foreground, var(--muted-foreground));
+}
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
