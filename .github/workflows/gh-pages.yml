@@ -26,5 +26,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # The action will use a personal access token (GH_PAGES_TOKEN) if you create one
+          # and add it to repository secrets. If that secret is not present it will fall
+          # back to GITHUB_TOKEN, which may be blocked by repository/branch protection.
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
